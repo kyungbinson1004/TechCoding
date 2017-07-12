@@ -1,0 +1,245 @@
+CMCON= 7 
+TRISA = %00000000
+TRISB = %00000000
+MAIN: 
+
+  Porta= %11111111
+  Portb= %11111111
+  Pause 1000
+
+  Porta= %00000000
+  Portb= %00000000
+  Pause 1000
+
+  Porta= %11111111
+  Portb= %11111111
+  Pause 1000
+
+  Porta= %00000000
+  Portb= %00000000
+  Pause 1000
+
+  Porta= %11111111
+  Portb= %11111111
+  Pause 1000
+  
+  Porta= %00000000
+  Portb= %00000000
+  Pause 1000
+
+
+  Porta = %10000000
+  Portb = %00000000
+  Pause 1000 
+  Porta = %01000000
+  Portb = %00000000
+  Pause 1000
+  Porta = %00000010
+  Portb = %00000000
+  Pause 1000
+  Porta = %00000001
+  Portb = %00000000
+  Pause 1000
+  Portb = %10000000
+  Porta=  %00000000
+  Pause 1000
+  Portb = %01000000
+  Porta = %00000000
+  Pause 1000 
+  Portb = %00100000
+  Porta = %00000000
+  Pause 1000
+  Portb = %00010000
+  Porta = %00000000 
+  Pause 1000
+  Portb = %00001000
+  Porta = %00000000
+  Pause 1000
+  Portb = %00000100
+  Porta = %00000000
+  Pause 1000 
+  Portb = %00000010
+  Porta = %00000000
+  Pause 1000 
+  Portb = %00000001
+  Porta = %00000000
+  Pause 1000
+ 
+  Porta = %10000000
+  Portb = %00000000
+  Pause 1000 
+  Porta = %01000000
+  Portb = %00000000
+  Pause 1000
+  Porta = %00000010
+  Portb = %00000000
+  Pause 1000
+  Porta = %00000001
+  Portb = %00000000
+  Pause 1000
+  Portb = %10000000
+  Porta=  %00000000
+  Pause 1000
+  Portb = %01000000
+  Porta = %00000000
+  Pause 1000 
+  Portb = %00100000
+  Porta = %00000000
+  Pause 1000
+  Portb = %00010000
+  Porta = %00000000 
+  Pause 1000
+  Portb = %00001000
+  Porta = %00000000
+  Pause 1000
+  Portb = %00000100
+  Porta = %00000000
+  Pause 1000 
+  Portb = %00000010
+  Porta = %00000000
+  Pause 1000 
+  Portb = %00000001
+  Porta = %00000000
+  Pause 1000
+
+  Porta= %11111111
+  Portb= %11111111
+  Pause 1000
+
+  Porta= %11111111
+  Portb= %11111111
+  Pause 1000
+
+  Porta= %11111111
+  Portb= %11111111
+  Pause 1000
+
+
+## HORIZONTAL VERTICLE 
+
+  Porta = %01000011
+  Portb = %11011111
+  Pause 1000
+
+  Porta = %11000000 
+  Portb = %01110001
+  Pause 1000
+
+  Porta = %01000011
+  Portb = %11011111
+  Pause 1000
+
+  Porta = %11000000 
+  Portb = %01110001
+  Pause 1000
+
+  Porta = %01000011
+  Portb = %11011111
+  Pause 1000
+
+  Porta = %11000000 
+  Portb = %01110001
+  Pause 1000
+
+  Porta = %01000011
+  Portb = %11011111
+  Pause 1000
+
+  Porta = %11000000 
+  Portb = %01110001
+  Pause 1000
+
+  Porta= %11111111
+  Portb= %11111111
+  Pause 1000
+
+  Porta= %11111111
+  Portb= %11111111
+  Pause 1000
+
+  Porta= %11111111
+  Portb= %11111111
+  Pause 1000
+
+
+#DOMINO EFFECT
+  Porta= %00000000
+  Portb= %00000000
+
+  Porta=%10000000
+  Portb= %00000000
+  Pause 500
+  Porta=%11000000
+  Portb=%00000001
+  Pause 500 
+  Porta=%11000010
+  Portb=%00000011
+  Pause 500 
+  Porta=%11000011
+  Portb=%00000111
+  Pause 500
+  Porta=%11000110
+  Portb=%10001111
+  Pause 500
+  Porta=%11000110
+  Portb=%11011111
+  Pause 500 
+  Porta=%11000110
+  Portb=%11111111
+  Pause 500 
+  
+  Porta= %11111111
+  Portb= %11111111
+  Pause 1000
+
+  Porta= %11111111
+  Portb= %11111111
+  Pause 1000
+
+  Porta = %10000000
+  Portb = %00000000
+  Pause 500 
+  Porta = %01000000
+  Portb = %00000000
+  Pause 500
+  Porta = %00000010
+  Portb = %00000000
+  Pause 500
+  Porta = %00000001
+  Portb = %00000000
+  Pause 500
+  Portb = %10000000
+  Porta=  %00000000
+  Pause 500
+  Portb = %01000000
+  Porta = %00000000
+  Pause 500 
+  Portb = %00100000
+  Porta = %00000000
+  Pause 500
+  Portb = %00010000
+  Porta = %00000000 
+  Pause 500
+  Portb = %00001000
+  Porta = %00000000
+  Pause 500
+  Portb = %00000100
+  Porta = %00000000
+  Pause 500 
+  Portb = %00000010
+  Porta = %00000000
+  Pause 500 
+  Portb = %00000001
+  Porta = %00000000
+  Pause 500
+
+  Porta= %11111111
+  Portb= %11111111
+  Pause 1000
+
+  Porta= %11111111
+  Portb= %11111111
+  Pause 1000 
+  
+
+GOTO MAIN 

@@ -1,0 +1,10 @@
+CMCON= 7 
+TRISA = %00000000
+TRISB= %00000000
+MAIN: 
+  Portb= %00010000
+  Pause 1000
+  Portb= %00000000
+  Pause 1000
+
+GOTO MAIN 
